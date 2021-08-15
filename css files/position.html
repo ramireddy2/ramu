@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>position</title>
+    <style>
+        #super {
+            border: solid 2px red;
+            height: 1000px;
+        }
+
+        #sub1 {
+            border: solid black;
+            background-color: blue;
+            right: 15px;
+            /*       top: 19px;
+                 position: fixed; */
+        }
+
+        #sub2 {
+            border: solid black;
+            background-color: brown;
+            position: relative;
+            top: 10px;
+
+        }
+
+        #sub3 {
+            border: solid black;
+            background-color: cadetblue;
+            /* position: sticky;
+                 top: 10px;  */
+        }
+
+        #sub4 {
+            border: solid black;
+            background-color: darkgoldenrod;
+            width: 300px;
+            height: 250px;
+            position: relative;
+        }
+
+        #sub5 {
+            border: solid black;
+            background-color: darkorange;
+            height: 60px;
+            width: 60px;
+            position: absolute;
+            bottom: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>position property</h1>
+    <div id="super">
+        <div id="sub1"> 1st sub div</div>
+        <div id="sub2"> 2nd sub div</div>
+        <div id="sub3"> 3rd sub div</div>
+        <div id="sub4"> 4th sub div</div>
+        <div id="sub5"> 5th sub div</div>
+    </div>
+</body>
+
+</html>
